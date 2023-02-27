@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(132, 255, 0));
+    font-family: 'Tilt Neon', cursive;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+input[type=text],
+input[type=password] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px 20px;
+
+}
+button[type=submit]{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: aquamarine;
+    border: none;
+    transition: all 0.3s linear;
+}
+button[type=submit]:hover {
+    box-shadow: 3px 2px 1px rgb(4, 202, 4);
+}
+
+
